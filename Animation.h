@@ -5,7 +5,7 @@
 
 int ghost_basic();
 int ghost_attack();
-int ghost_hurted();
+int ghost_underAttack();
 
 
 #endif 
