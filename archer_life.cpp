@@ -14,7 +14,7 @@ using namespace std;
 void archer_life()
 {
 
-    cout<<FORMAT_CONVERSITION"Mystery:Ash,what's your name?= ="<<endl;
+    cout<<FORMAT_CONVERSATION"Mystery:Ash,what's your name?= ="<<endl;
     char name[100];
     cin>>name;
 

@@ -17,12 +17,12 @@ void saber_life()
 {
 
     saber My_saber;
-    cout<<FORMAT_CONVERSITION"Mystery:Ash,what's your name?= ="<<endl;
+    cout<<FORMAT_CONVERSATION"Mystery:Ash,what's your name?= ="<<endl;
     char name[100];
     cin>>name;
     My_saber.set_name(name);
-    cout<<FORMAT_CONVERSITION"emmmm,my name is "<<My_saber.name<<endl;
-    cout<<FORMAT_CONVERSITION"Mystery:What ever,welcome to 2-Demension land"<<endl;
+    cout<<FORMAT_CONVERSATION"emmmm,my name is "<<My_saber.name<<endl;
+    cout<<FORMAT_CONVERSATION"Mystery:What ever,welcome to 2-Demension land"<<endl;
     enter_map(My_saber);
 
 }

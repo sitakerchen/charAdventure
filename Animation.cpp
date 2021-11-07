@@ -1,6 +1,3 @@
-//
-// Created by sitaker on 19-2-18.
-//
 #include <iostream>
 #include "Animation.h"
 #include "format_control.h"
@@ -25,7 +22,7 @@ int ghost_basic()
 }
 
 
-int ghost_hurted()
+int ghost_underAttack()
 {
       DIVIDING_LINE
       cout<<"     --------                \n"

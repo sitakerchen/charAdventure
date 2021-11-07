@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/starkchen/OneDrive/code/ToFindAJob/作品集/Internship_exhibition_collection/charAdventure'
+make: Leaving directory `/Users/starkchen/OneDrive/code/ToFindAJob/作品集/Internship_exhibition_collection/charAdventure'
+ 
+Makefile:1: *** missing separator.  Stop.
+ 

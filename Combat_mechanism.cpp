@@ -53,7 +53,7 @@ int enter_combat_Ghost(saber &My_saber,Ghost &ghost)
                 {
                     if (My_saber.EDU>0)
                     {
-                        ghost_hurted();
+                        // ghost_underAttack();
                         Combat_sence(My_saber,ghost);
                         My_saber.attack(ghost);
                         cout<<"HP-"<<My_saber.HP<<endl;

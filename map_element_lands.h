@@ -5,7 +5,10 @@
 #ifndef CORE_MAP_ELEMENT_LANDS_H
 #define CORE_MAP_ELEMENT_LANDS_H
 
+#include <iostream>
 #include "format_control.h"
+#include "professional.h"
+using namespace std;
 
 int enter_combat_Ghost(saber &My_saber,Ghost &ghost);
 ///////////////////////////////////////////////
@@ -46,8 +49,6 @@ public:
 
     void show_map()
     {
-        cout<<this->flag_discover;
-        //cout<<this->flag_monster;
     }
 
     void pass_by()
